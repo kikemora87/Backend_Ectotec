@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Maqueta_Backend_EctoTec.props" />
+</Project>
