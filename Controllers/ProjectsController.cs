@@ -31,13 +31,30 @@ namespace Maqueta_Backend_EctoTec.Controllers
 
         // GET: api/Projects
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Project>>> GetProjects()
+        public async Task<ActionResult<IEnumerable<Project>>> GetProjects()  //int Records, int Page
         {
           if (_context.Projects == null)
           {
               return NotFound();
           }
+            /*var TotalRecords = _context.Projects.Count();
+            var TotalPage = Math.Ceiling(TotalRecords / Convert.ToDouble(Records));
+
+            var projects = await _context.Projects
+                .Skip((Page-1) * Records)
+                .Take(Records)
+                .ToListAsync();
+
+            var resp = new ResponseDTO
+            {
+                Projects = projects,
+                TotalPages = Convert.ToInt32(TotalPage),
+                TotalRecords = TotalRecords
+            };
+
+            return Ok(resp);*/
             return await _context.Projects.ToListAsync();
+
         }
 
         // GET: api/Projects/5

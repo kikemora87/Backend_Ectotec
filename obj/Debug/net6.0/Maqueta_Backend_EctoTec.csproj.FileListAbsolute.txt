@@ -292,3 +292,4 @@ C:\Users\Kikemora\source\repos\Maqueta_Backend_EctoTec\bin\Debug\net6.0\runtimes
 C:\Users\Kikemora\source\repos\Maqueta_Backend_EctoTec\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Kikemora\source\repos\Maqueta_Backend_EctoTec\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Kikemora\source\repos\Maqueta_Backend_EctoTec\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Kikemora\source\repos\Maqueta_Backend_EctoTec\obj\Debug\net6.0\Maqueta_Backend_EctoTec.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maqueta_Backend_EctoTec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2191a64a555287df780a43c4331e49d6e6909351")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maqueta_Backend_EctoTec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maqueta_Backend_EctoTec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
